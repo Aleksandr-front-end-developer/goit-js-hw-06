@@ -15,7 +15,7 @@ const images = [
 
 
 const createImageEl = function ({ url, alt }) {
-	return `<img class="gallery__img" src="${url}" alt="${alt}">`
+	return `<li class="gallery__item"><img class="gallery__img" src="${url}" alt="${alt}"></li>`
 }
 
 const imagesAllElements = images.map(createImageEl).join('');

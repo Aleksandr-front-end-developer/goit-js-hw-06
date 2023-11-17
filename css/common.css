@@ -25,7 +25,9 @@ button {
 
 .gallery {
 	padding-left: 0;
+	list-style: none;
 }
+
 
 .gallery__img {
 	display: block;
@@ -33,7 +35,7 @@ button {
 }
 
 @media (max-width:767px) {
-	.gallery__img:not(:last-child) {
+	.gallery__item:not(:last-child) {
 		margin-bottom: 25px;
 	}
 }
